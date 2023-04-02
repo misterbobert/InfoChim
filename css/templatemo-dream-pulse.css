@@ -17,6 +17,15 @@ color:#910808;
 p {
   line-height: 2;
 }
+.blood-button {
+  background-color: #8b0000; 
+  color: #fff;
+  border-radius: 25px; 
+  padding: 10px 20px; 
+  font-size: 16px; 
+  cursor: pointer; 
+  border: none; 
+}
 
 .ms{font-family: 'Courier New', Courier, monospace;}
 
