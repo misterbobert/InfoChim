@@ -18,7 +18,7 @@ p {
   line-height: 2;
 }
 .blood-button {
-  background-color: #8b0000; 
+  background-color: #8b000; 
   color: #fff;
   border-radius: 25px; 
   padding: 10px 20px; 
@@ -51,7 +51,7 @@ a {
 }
 
 .tm-bg-black-transparent {
-  background-color: rgba(6, 98, 114, 0.3);
+  background-color: rgba(0, 0, 0, 0.3);
   
 }
 
@@ -67,16 +67,17 @@ a {
 
 
 .tm-intro {
-  max-width: 500px;
-  width: 100%;
-  padding: 55px;
+  max-width: 900px;
+  width: 80%;
+  padding: 45px;
   margin-right: 0;
   border-radius: 25px;
   margin-left: auto;
+ 
 }
 
 .tm-section-title {
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 
 .parallax-window {
@@ -632,6 +633,7 @@ figure.effect-bubba:hover p {
     max-width: none;
     padding-left: 30px;
     padding-right: 30px;
+   
   }
 
   .tm-social-link {
@@ -654,10 +656,10 @@ figure.effect-bubba:hover p {
 
 @media (max-width: 991px) {
   .tm-bg-black-transparent {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.384);
     position: absolute;
     top: 0%;
-    right: -300px; /* start off screen */
+    right: 60px; /* start off screen */
     animation: tm-section-wrap 1s forwards;
     
   }
