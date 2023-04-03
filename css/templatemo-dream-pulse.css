@@ -6,13 +6,12 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   color: #707172;
-  
- 
- 
+  background: rgb(63,94,251);
+ background: radial-gradient(circle, rgb(48, 42, 141) 0%, rgb(77, 7, 109) 100%);
 }
 .fonttitlu{
-font-family: 'Times New Roman', Times, serif;
-color:#2ac050;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color:#2b0404;
 }
 
 p {
@@ -48,11 +47,11 @@ a {
 }
 
 .tm-color-gray {
-  color: #d18d7b;
+  color: orange;
 }
 
 .tm-bg-black-transparent {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(18, 1, 46, 0.3);
   
 }
 
