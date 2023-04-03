@@ -11,7 +11,7 @@ body {
 }
 .fonttitlu{
 font-family: 'Times New Roman', Times, serif;
-color:#910808;
+color:#2ac050;
 }
 
 p {
@@ -656,7 +656,7 @@ figure.effect-bubba:hover p {
   .tm-bg-black-transparent {
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
-    top: 50%;
+    top: 0%;
     right: -300px; /* start off screen */
     animation: tm-section-wrap 1s forwards;
     
@@ -689,7 +689,7 @@ figure.effect-bubba:hover p {
     width: 250px;
     left: -250px;
     padding: 15px;
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
   }
 
   .navbar-toggler {
