@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="slick/slick-theme.css"/>    
     <link rel="stylesheet" href="css/magnific-popup.css">
     <link rel="stylesheet" href="css/templatemo-dream-pulse.css" />
+    
     <style>
       .vl {
         border-left: 8px solid rgb(40, 0, 114);
@@ -293,62 +294,90 @@
 
     
                                         
-                                        <details>
-                                          <summary>Testeaza-ti cunostintele</summary>
-                                          <form id="test-form">
-		                                      <h3>Intrebare 1</h3>
-		                                      <p>xxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
-	                                      	<input type="text" name="q1" required>
-                                          <h3>Intrebare 2</h3>
-                                          <p>xxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
-                                          <input type="text" name="q2" required>
-                                          <h3>Intrebare 3</h3>
-                                          <p>xxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
-                                          <input type="text" name="q3" required>
-                                          <h3>Intrebare 4</h3>
-                                          <p>xxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
-                                          <input type="text" name="q4" required>
-                                          <h3>Intrebare 5</h3>
-                                          <p>xxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
-                                          <input type="text" name="q5" required>
-                                          <br>
-                                          <button type="submit" class="blood-button">Trimite</button>
-	</form></details>
-	<div id="result"></div>
+                                        <details> <summary>Testeaza-ti cunostintele</summary>
+                                          <form onsubmit="calculateScore(); return false;">
+                                           
+                                            <h2>Intrebarea 1:</h2>
+                                            <p>xxxxxxxxxxxx</p>
+                                            <input type="radio" name="q1" value="a"> a) x<br>
+                                            <input type="radio" name="q1" value="b"> b) y<br>
+                                            <input type="radio" name="q1" value="c"> c) z<br>
+                                            <input type="radio" name="q1" value="d"> d) w<br>
+                                        
+                                            
+                                            <h2>Intrebarea 2:</h2>
+                                            <p>xxxxxxxxxxxx</p>
+                                            <input type="radio" name="q2" value="a"> a) x<br>
+                                            <input type="radio" name="q2" value="b"> b) y<br>
+                                            <input type="radio" name="q2" value="c"> c) z<br>
+                                            <input type="radio" name="q2" value="d"> d) w<br>
 
-	<script>
-		const testForm = document.getElementById("test-form");
-		testForm.addEventListener("submit", function(event) {
-			event.preventDefault();
-			const q1Answer = testForm.elements["q1"].value.toLowerCase();
-			const q2Answer = testForm.elements["q2"].value.toLowerCase();
-			const q3Answer = testForm.elements["q3"].value.toLowerCase();
-			const q4Answer = testForm.elements["q4"].value.toLowerCase();
-			const q5Answer = testForm.elements["q5"].value.toLowerCase();
+                                            <h2>Intrebarea 3:</h2>
+                                            <p>xxxxxxxxxxxx</p>
+                                            <input type="radio" name="q3" value="a"> a) x<br>
+                                            <input type="radio" name="q3" value="b"> b) y<br>
+                                            <input type="radio" name="q3" value="c"> c) z<br>
+                                            <input type="radio" name="q3" value="d"> d) w<br>
 
-			let score = 0;
+                                            <h2>Intrebarea 4:</h2>
+                                            <p>xxxxxxxxxxxx</p>
+                                            <input type="radio" name="q4" value="a"> a) x<br>
+                                            <input type="radio" name="q4" value="b"> b) y<br>
+                                            <input type="radio" name="q4" value="c"> c) z<br>
+                                            <input type="radio" name="q4" value="d"> d) w<br>
 
-			if (q1Answer === "r1") {
-				score += 1;
-			}
-			if (q2Answer === "r2") {
-				score += 1;
-			}
-			if (q3Answer === "r3") {
-				score += 1;
-			}
-			if (q4Answer === "r4") {
-				score += 1;
-			}
-			if (q5Answer === "r5") {
-				score += 1;
-			}
-
-			const resultDiv = document.getElementById("result");
-		
-      alert(`Bravo! Ai raspuns corect la ${score} intrebari din 5!`);
-		});
-	</script>
+                                            <h2>Intrebarea 5:</h2>
+                                            <p>xxxxxxxxxxxx</p>
+                                            <input type="radio" name="q5" value="a"> a) x<br>
+                                            <input type="radio" name="q5" value="b"> b) y<br>
+                                            <input type="radio" name="q5" value="c"> c) z<br>
+                                            <input type="radio" name="q5" value="d"> d) w<br>
+                                        
+                                            <br>
+                                            <p align=center>
+                                            <input type="submit" value="Submit">
+                                          </p>
+                                          </form></details>
+                                        
+                                          <div id="score"></div>
+                                        
+                                          <script>
+                                            function calculateScore() {
+                                             
+                                              var q1 = document.querySelector('input[name="q1"]:checked').value;
+                                              var q2 = document.querySelector('input[name="q2"]:checked').value;
+                                              var q3 = document.querySelector('input[name="q3"]:checked').value;
+                                              var q4 = document.querySelector('input[name="q4"]:checked').value;
+                                              var q5 = document.querySelector('input[name="q5"]:checked').value;
+                                              
+                                              var score = 0;
+                                        
+                                              if (q1 === 'a') {
+                                                score += 2;
+                                              }
+                                        
+                                              if (q2 === 'a') {
+                                                score += 2;
+                                              }
+                                              if (q3 === 'a') {
+                                                score += 2;
+                                              }
+                                        
+                                              if (q4 === 'a') {
+                                                score += 2;
+                                              }
+                                              if (q5 === 'a') {
+                                                score += 2;
+                                              }
+                                        
+                                             
+                                            
+                                             
+                                              alert('Nota obtinuta este : ' + score + ' din 10');
+                                           
+                                            }
+                                          </script>
+                                        
 
 </div>
 

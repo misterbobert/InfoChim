@@ -13,7 +13,64 @@ body {
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 color:#2b0404;
 } /
+details {
+  width: 50%;
+  margin: 0 auto ;
+  background: #282828;
+  margin-bottom: .5rem;
+  box-shadow: 0 .1rem 1rem -.5rem rgba(0,0,0,.4);
+  border-radius: 5px;
+  overflow: hidden;
+}
 
+summary {
+  padding: 1rem;
+  display: block;
+  background: #333;
+  padding-left: 2.2rem;
+  position: relative;
+  cursor: pointer;
+}
+
+summary:before {
+  content: '';
+  border-width: .4rem;
+  border-style: solid;
+  border-color: transparent transparent transparent #fff;
+  position: absolute;
+  top: 1.3rem;
+  left: 1rem;
+  transform: rotate(0);
+  transform-origin: .2rem 50%;
+  transition: .25s transform ease;
+}
+
+/* THE MAGIC 🧙‍♀️ */
+details[open] > summary:before {
+  transform: rotate(90deg);
+}
+
+
+details summary::-webkit-details-marker {
+  display:none;
+}
+
+details > ul {
+  padding-bottom: 1rem;
+  margin-bottom: 0;
+}
+
+/////////////////////////////////////////
+
+body {
+  background: #222;
+  height: 100vh;
+  font-family: sans-serif;
+  color: white;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  margin-top: 2rem;
+}
 p {
   line-height: 2;
 }
@@ -67,8 +124,8 @@ a {
 
 
 .tm-intro {
-  max-width: 900px;
-  width: 80%;
+  max-width: 700px;
+  width: 90%;
   padding: 45px;
   margin-right: 0;
   border-radius: 25px;
@@ -659,7 +716,7 @@ figure.effect-bubba:hover p {
     background-color: rgba(0, 0, 0, 0.384);
     position: absolute;
     top: 0%;
-    right: 60px; /* start off screen */
+    right: 25px; /* start off screen */
     animation: tm-section-wrap 1s forwards;
     
   }
