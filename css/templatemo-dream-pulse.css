@@ -11,7 +11,7 @@ body {
 }
 .fonttitlu{
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-color:#2b0404;
+color:#eeebeb;
 } 
 details {
   width: 50%;
@@ -222,20 +222,24 @@ body {
   width: 300%;
   max-width: 330px;
   min-height: 260px;
-  color: white;
+  color: rgb(0, 0, 0);
   text-align: center;
   margin: 80px auto 90px;
 }
 
 .tm-double-border-1,
 .tm-double-border-2 {
-  border: 1px solid #fff;
+  border: 2px solid #a8a1a1;
   position: relative;
 }
 
+.tm-double-border-1 {
+  top: 9px;
+  left: -10px;
+}
 .tm-double-border-2 {
-  top: 10px;
-  left: 10px;
+  top: 9px;
+  left: -10px;
 }
 
 .tm-border-gray {
@@ -359,11 +363,11 @@ body {
 .tm-social-link:hover,
 .tm-social-link:focus {
   background-color: #069;
-  color: white;
+  color: rgb(14, 2, 2);
 }
 
 .tm-footer-link {
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .tm-footer-link:hover {
@@ -686,7 +690,7 @@ figure.effect-bubba:hover p {
 
 @media (max-width: 1600px) {
   .tm-sidebar {
-    width: 30%;
+    width: 90%;
     max-width: none;
     padding-left: 30px;
     padding-right: 30px;
@@ -722,14 +726,14 @@ figure.effect-bubba:hover p {
   }
 
   .tm-brand-box {
-    margin-top: 30px;
+    margin-top: 40px;
     margin-bottom: 30px;
     max-width: 200px;
     min-height: 100px;
   }
 
   .tm-brand {
-    padding: 20px 30px;
+    padding: 10px 15px;
   }
 
   .tm-main-nav {
