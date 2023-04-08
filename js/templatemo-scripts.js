@@ -83,6 +83,9 @@ $(document).ready(function() {
     $(".tm-sidebar").removeClass("show");
   });
 });
+
+
+if (window.matchMedia("(min-width: 600px)").matches) {
 var colour="random"; // "random" can be replaced with any valid colour ie: "red"...
 var sparkles=15;// increase of decrease for number of sparkles falling
 
@@ -343,3 +346,6 @@ function newColour() {
 	return ("rgb("+c[0]+", "+c[1]+", "+c[2]+")");
 }
 // ]]>
+
+ 
+}
