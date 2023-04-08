@@ -6,7 +6,7 @@ body {
   overflow-x: hidden;
   color: #707172;
   background: rgb(78, 78, 78);
-  background-image: linear-gradient( white, gray,black);
+  background-image: radial-gradient(rgb(187, 87, 87), rgb(148, 83, 201), rgb(79, 56, 116));
 }
 .fonttitlu{
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
