@@ -12,10 +12,29 @@ body {
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 color:#eeebeb;
 } 
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.radio-container input:checked + .checkmark:after {
+  display: block;
+  animation: zoom-in 0.3s forwards;
+}
+
+@keyframes zoom-in {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 details {
   width: 50%;
   margin: 0 auto ;
-  background: #282828;
+  background: #7230be;
   margin-bottom: .5rem;
   box-shadow: 0 .1rem 1rem -.5rem rgba(0,0,0,.4);
   border-radius: 5px;
