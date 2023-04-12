@@ -5,6 +5,7 @@ body {
   font-size: 18px;
   font-weight: 400;
   zoom: 100%;
+  width: 100vw;
   overflow-x: hidden;
   color: #707172;
   background: rgb(78, 78, 78);
