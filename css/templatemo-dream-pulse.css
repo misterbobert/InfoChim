@@ -70,6 +70,7 @@ summary:before {
 /* THE MAGIC 🧙‍♀️ */
 details[open] > summary:before {
   transform: rotate(90deg);
+  transition: height 0.3s ease-out;
 }
 
 
