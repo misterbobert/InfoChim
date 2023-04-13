@@ -1,6 +1,6 @@
 
 body {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   cursor: url('https://cur.cursors-4u.net/cursors/cur-2/cur116.cur'), auto;
   font-size: 18px;
   font-weight: 400;
@@ -12,7 +12,7 @@ body {
   background-image: radial-gradient(rgb(187, 87, 87), rgb(148, 83, 201), rgb(79, 56, 116));
 }
 .fonttitlu{
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 color:#eeebeb;
 } 
 .checkmark:after {
@@ -88,7 +88,7 @@ details > ul {
 body {
   background: #222;
   height: 100vh;
-  font-family: sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: white;
   line-height: 1.5;
   letter-spacing: 1px;
@@ -107,7 +107,7 @@ p {
   border: none; 
 }
 .centru{ align: center}
-.ms{font-family: calibri ;}
+.ms{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;}
 
 a {
   transition: all 0.3s ease;
@@ -235,7 +235,7 @@ details > ul {
 body {
   background: #910808;
   height: 100vh;
-  font-family: sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: white;
   line-height: 1.5;
   letter-spacing: 1px;
