@@ -9,7 +9,7 @@ body {
   overflow-x: hidden;
   color: #707172;
   background: rgb(78, 78, 78);
-  background-image: radial-gradient(rgb(187, 87, 87), rgb(148, 83, 201), rgb(79, 56, 116));
+  background-image: linear-gradient(#174978, #2F5F8A, #46769B);
 }
 .fonttitlu{
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -472,12 +472,7 @@ meta[name="viewport"] {
   opacity: 1;
 }
 
-/* 
-  Gallery Item Hover Effect
-  https://tympanus.net/codrops/2014/06/19/ideas-for-subtle-hover-effects/
-*/
 
-/* Common style */
 .tm-gallery-item figure {
   position: relative;
   float: left;
@@ -715,7 +710,7 @@ figure.effect-bubba:hover p {
   box-shadow: none;
 }
 
-@media (max-width: 1600px) {
+@media (max-width: 1200px) {
   .tm-sidebar {
     width: 90%;
     max-width: none;
@@ -724,10 +719,7 @@ figure.effect-bubba:hover p {
    
   }
 
-  .tm-social-link {
-    margin: 5px;
-  }
-
+  
   .tm-section-wrap {
     width: 70%;
   }
