@@ -67,7 +67,6 @@ summary:before {
   transition: .25s transform ease;
 }
 
-/* THE MAGIC 🧙‍♀️ */
 details[open] > summary:before {
   transform: rotate(90deg);
   transition: height 0.3s ease-out;
@@ -415,7 +414,7 @@ meta[name="viewport"] {
   justify-content: center;
 }
 
-/* Our Work */
+
 
 .tm-gallery-wrap {
   max-width: 1040px;
@@ -423,7 +422,7 @@ meta[name="viewport"] {
   margin-right: auto;
 }
 
-@media (max-width: 1600px) {
+@media (max-width: 1699px) {
   .tm-gallery-wrap {
     max-width: 780px;
   }
@@ -710,7 +709,7 @@ figure.effect-bubba:hover p {
   box-shadow: none;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 900px) {
   .tm-sidebar {
     width: 90%;
     max-width: none;
