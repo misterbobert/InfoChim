@@ -292,7 +292,6 @@ meta[name="viewport"] {
   max-width: 400px;
 }
 
-/* Hide scrollbar */
 .tm-sidebar {
   overflow-y: scroll;
   scrollbar-width: none; /* Firefox */
