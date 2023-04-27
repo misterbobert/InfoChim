@@ -1,8 +1,7 @@
 $(document).ready(function() {
-  // Single Page Nav for highlighting nav items
+
   $("#tmMainNav").singlePageNav();
 
-  // Carousel in Our Work section
   $(".tm-gallery").slick({
     dots: true,
     infinite: false,
@@ -53,15 +52,12 @@ $(document).ready(function() {
           slidesToScroll: 1
         }
       }
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
+      
     ]
   });
 
-  // Image Pop Up
   $(".tm-gallery").magnificPopup({
-    delegate: "a", // child items selector, by clicking on it popup will open
+    delegate: "a", 
     type: "image",
     gallery: { enabled: true }
   });
@@ -88,8 +84,8 @@ $(document).ready(function() {
 if (window.matchMedia("(min-width: 600px)").matches) {
 
 
-  var colour="random"; // "random" can be replaced with any valid colour ie: "red"...
-  var sparkles=50;// increase of decrease for number of sparkles falling
+  var colour="random"; 
+  var sparkles=50;
   
   var x=ox=400;
   var y=oy=300;

@@ -96,15 +96,7 @@ body {
 p {
   line-height: 2;
 }
-.blood-button {
-  background-color: #8b000; 
-  color: #fff;
-  border-radius: 25px; 
-  padding: 10px 20px; 
-  font-size: 16px; 
-  cursor: pointer; 
-  border: none; 
-}
+
 .centru{ align: center}
 .ms{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;}
 
