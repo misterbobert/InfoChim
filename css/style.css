@@ -9,7 +9,7 @@ body {
   overflow-x: hidden;
   color: #707172;
   background: rgb(78, 78, 78);
-  background-image: linear-gradient(#174978, #2F5F8A, #46769B);
+  background-image: radial-gradient(#29629b, #383abe, #8633b6);
 }
 .fonttitlu{
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
