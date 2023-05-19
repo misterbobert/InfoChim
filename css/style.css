@@ -9,7 +9,7 @@ body {
   overflow-x: hidden;
   color: #707172;
   background: rgb(78, 78, 78);
-  background-image: radial-gradient(#29629b, #383abe, #8633b6);
+  background-image: radial-gradient(#55d0ff , #00acdf , #0080bf);
 }
 .fonttitlu{
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -48,7 +48,7 @@ details {
 summary {
   padding: 1rem;
   display: block;
-  background: #333;
+  background: #589ccc;
   padding-left: 2.2rem;
   position: relative;
   cursor: pointer;
@@ -326,9 +326,11 @@ meta[name="viewport"] {
 }
 
 .nav-link {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   padding-top: 12px;
   padding-bottom: 12px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .nav-link .tm-white-rect {

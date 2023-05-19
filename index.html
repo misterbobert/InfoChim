@@ -25,7 +25,7 @@
     <style>
       .vl {
         border-left: 8px solid rgb(40, 0, 114);
-        height: 155px;
+        height: 155px;x
         
         padding-left: 30px;
       }
@@ -748,6 +748,7 @@ Reacția de schimb dintre clorura de mercur și iodura de potasiu are aplicații
                                             <input type="radio" name="q1" value="b"> b) CA = A + B;<br>
                                             <input type="radio" name="q1" value="c"> c) A + BC = AC + B;<br>
                                             <input type="radio" name="q1" value="d"> d) A + A = B + C.<br>
+					
                                            
                                             <raspunsuri: c, b, b, b, d>
                                             
@@ -758,13 +759,14 @@ Reacția de schimb dintre clorura de mercur și iodura de potasiu are aplicații
                                             <input type="radio" name="q2" value="b"> b) AB + CD = AD + CB;<br>
                                             <input type="radio" name="q2" value="c"> c) BD + AC = AC + BD<br>
                                             <input type="radio" name="q2" value="d"> d) AD + AB = BD + BC<br>
-
+							  
                                             <h2>Intrebarea 3:</h2>
                                             <p>Într-o reacție de schimb, reactanții sunt: </p>
                                             <input type="radio" name="q3" value="a"> a)	două substanțe simple;<br>
                                             <input type="radio" name="q3" value="b"> b)	două substanțe compuse;<br>
                                             <input type="radio" name="q3" value="c"> c)	o substanță simplă și o substanță compusă;<br>
                                             <input type="radio" name="q3" value="d"> d) Niciuna de mai sus.<br>
+							  
 
                                             <h2>Intrebarea 4:</h2>
                                             <p>Într-o reacție de neutralizare, produșii de reacție sunt:</p>
@@ -772,6 +774,7 @@ Reacția de schimb dintre clorura de mercur și iodura de potasiu are aplicații
                                             <input type="radio" name="q4" value="b"> b)	sare și apă;<br>
                                             <input type="radio" name="q4" value="c"> c) două săruri solubile;<br>
                                             <input type="radio" name="q4" value="d"> d) un zahăr si o sare.<br>
+							
 
                                             <h2>Intrebarea 5:</h2>
                                             <p>Care din următoarele reacții sunt de substituție?</p>
@@ -779,10 +782,12 @@ Reacția de schimb dintre clorura de mercur și iodura de potasiu are aplicații
                                             <input type="radio" name="q5" value="b"> b) HCl + AgNO<sub>3</sub> = AgCl + HNO<sub>3</sub><br>
                                             <input type="radio" name="q5" value="c"> c) NaCl + AgNO<sub>3</sub> = NaNO<sub>3</sub> + AgCl <br>
                                             <input type="radio" name="q5" value="d"> d) Zn + 2HCl = ZnCl<sub>2</sub> + H<sub>2</sub> <br>
+							  
                                            
                                             <br>
                                             <p align=center>
                                             <input type="submit" value="Submit">
+							  <button type="reset">Reset Answers</button>
                                           </p>
                                           </form></details>
                                         
@@ -801,39 +806,51 @@ Reacția de schimb dintre clorura de mercur și iodura de potasiu are aplicații
     if (q1 && q1.value === 'c') {
       score += 2;
     } else if (q1) {
-      q1.parentNode.style.backgroundColor = '#ffcccc';
+      q1.parentNode.style.backgroundColor = '#589ccc';
     }
 
     if (q2 && q2.value === 'b') {
       score += 2;
     } else if (q2) {
-      q2.parentNode.style.backgroundColor = '#ffcccc';
+      q2.parentNode.style.backgroundColor = '#589ccc';
     }
 
     if (q3 && q3.value === 'b') {
       score += 2;
     } else if (q3) {
-      q3.parentNode.style.backgroundColor = '#ffcccc';
+      q3.parentNode.style.backgroundColor = '#589ccc';
     }
 
     if (q4 && q4.value === 'b') {
       score += 2;
     } else if (q4) {
-      q4.parentNode.style.backgroundColor = '#ffcccc';
+      q4.parentNode.style.backgroundColor = '#589ccc';
     }
 
     if (q5 && q5.value === 'd') {
       score += 2;
     } else if (q5) {
-      q5.parentNode.style.backgroundColor = '#ffcccc';
+      q5.parentNode.style.backgroundColor = '#589ccc';
     }
 
-    alert('Nota obținută este: ' + score + ' din 10');
+    alert('Nota obținută este: ' + score + ' din 10. Răspunsurile corecte sunt: c,b,b,b,d');
   }
-  
+	test=1;
+   
 </script>
 
-
+<details> <summary>Vezi raspunsurile: </summary>
+<script>
+if(test==0)
+{
+alert('Nu ai dat testul. Nu poti vedea raspunsurile.')
+}
+</script>
+rasp 1
+rasp 2
+rasp 3
+rasp 4
+rasp 5
 </div>
 
 
