@@ -8,9 +8,14 @@ body {
   width: 100vw;
   overflow-x: hidden;
   color: #707172;
+<<<<<<< HEAD
   
   background-image: radial-gradient(#55d0ff , #00acdf ,  #8000ff);
   background: linear-gradient(to right, #34295b,  #8000ff);
+=======
+  background: rgb(78, 78, 78);
+  background-image: radial-gradient(#55d0ff , #00acdf , #0080bf);
+>>>>>>> parent of 14c9bd4 (Schimbare gradient)
 }
 .fonttitlu{
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
